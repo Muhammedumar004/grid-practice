@@ -22,7 +22,8 @@ body{
   color: #ffffff;
   text-align: center;
 }
-.main a{
+.atag2{
+    /* margin-left:46%; */
     border-radius: 10px;
     padding: 15px;
     color: white;
@@ -30,8 +31,135 @@ body{
     font-size: large;
     background-color: #6e3ec2;
     font-family: sans-serif;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.455);
 }
-.main  a:active{
+.atag2:active{
     background-color: #12009a;
 }
 /* index section end */
+
+/* layout-one start */
+  .parent-one{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 ,40vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+.children{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.455);
+    border-radius: 5px;
+}
+.ancher{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.red1{
+    background-color: rgb(146, 3, 3);
+}
+.red2{
+    background-color: rgb(211, 4, 4);
+}
+.red3{
+    background-color: red;
+}
+.blue1{
+    background-color: rgb(2, 106, 147);
+}
+.blue2{
+    background-color: rgb(2, 130, 181);
+}
+.blue3{
+    background-color: rgb(0, 183, 255);
+}
+/* layout-one end */
+
+
+/* layout-two satr */
+.parent-two{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 ,40vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+#parent-two-children-1{
+    grid-column: 1/3;
+}
+#parent-two-children-2{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+/* layout-two end */
+
+
+/* layout three start */
+.parent-three{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(4 ,18vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+#parent-three-children-1{
+    grid-column: 1/4;
+}
+#parent-three-children-2{
+    grid-row: 2/4;
+}
+#parent-three-children-3{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+#parent-three-children-4{
+    grid-column: 1/4;
+}
+/* layout three Three */
+
+
+
+/* layout four start */
+.parent-four{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(3 ,18vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+#parent-four-children-1{
+    grid-column: 1/3;
+}
+#parent-four-children-2{
+    grid-column: 3/5;
+}
+#parent-four-children-3{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+#parent-four-children-4{
+    grid-column: 2/5;
+    grid-row: 2/4;
+}
+#parent-four-children-5{
+    height: 50px;
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
+/* layout four end */
+
+
+/* layout five start */
+    .parent-five{
+        display: grid;
+        grid-template-columns: repeat(6 , 1fr);
+        grid-template-rows: repeat(3 ,25vh);
+        gap: 20px;
+        padding: 20px;
+    
+    }
+/* layout five end */
