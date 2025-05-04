@@ -163,3 +163,119 @@ body{
     
     }
 /* layout five end */
+
+
+/* layout six started */
+.parent-six{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(6 ,11vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+#parent-six-children-1{
+    grid-column: 1/3;
+}
+#parent-six-children-7{
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+#parent-six-children-8{
+    grid-column: 3/4;
+}
+#parent-six-children-11{
+    grid-column: 1/2;
+}
+#parent-six-children-11{
+    grid-column: 1/4;
+}
+/* layout six ended */
+
+
+/* layout seven start */
+.parent-seven{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(6 ,11vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+#parent-seven-children-1{
+    grid-column: 1/3;
+}
+#parent-seven-children-2{
+    grid-column: 3/5;
+}
+#parent-seven-children-3{
+    grid-column: 1/3;
+    grid-row: 2/6;
+}
+#parent-seven-children-4{
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column: 3/5;
+    grid-row: 2/6;
+}
+#parent-seven-children-5{
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+#parent-seven-children-6{
+    grid-column: 1/3;
+    grid-row: 2/4;
+  }
+  #parent-seven-children-7{
+    grid-column: 3/5;
+    grid-row: 2/4;
+  }
+
+
+/* layout seven end  */
+
+
+/* layout eight start */
+
+.parent-eight{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(3,24vh);
+    gap: 20px;
+    padding: 20px;
+
+}
+#parent-eight-children-8{
+    grid-row: 2/3;
+    grid-column: 3/6;
+}
+#parent-eight-children-9{
+    grid-row: 3/4;
+    grid-column: 1/6;
+}
+
+/* layout eight end */
+
+
+
+/* layout nine start */
+.parent-NINE{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 15vh 24vh 24vh;
+    gap: 20px;
+    padding: 20px;
+}
+#parent-NINE-children-1{
+    grid-column: 1/4;
+}
+#parent-NINE-children-2{
+    grid-row: 2/4;
+}  
+#parent-NINE-children-3{
+   grid-column: 2/4;
+}  
+/* layout nine end */
